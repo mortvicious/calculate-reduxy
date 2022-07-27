@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/calculate-reduxy/static/css/main.f3066ba9.css",
+    "main.js": "/calculate-reduxy/static/js/main.0ac29c4c.js",
+    "index.html": "/calculate-reduxy/index.html",
+    "main.f3066ba9.css.map": "/calculate-reduxy/static/css/main.f3066ba9.css.map",
+    "main.0ac29c4c.js.map": "/calculate-reduxy/static/js/main.0ac29c4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f3066ba9.css",
+    "static/js/main.0ac29c4c.js"
+  ]
+}
