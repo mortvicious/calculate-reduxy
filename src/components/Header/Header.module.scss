@@ -1,0 +1,35 @@
+@import '../../vars';
+
+.header {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    position: relative;
+}
+
+
+.logo {
+    padding: 1rem;
+    border-top: 1px solid $clr-light;
+    border-right: 1px solid $clr-light;
+    border-top-right-radius: 15px;
+    font-size: 35px;
+    font-weight: 600;
+    font-family: $fnt-main;
+    letter-spacing: 4px;
+}
+
+.logo-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.hidden-txt {
+    color: $clr-tint;
+    font-weight: 100;
+    text-transform: uppercase;
+    font-family: 'Courier New', Courier, monospace;
+    align-self: flex-end;
+    padding-inline: 1rem;
+}

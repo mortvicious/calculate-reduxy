@@ -1,0 +1,35 @@
+@import '../../vars';
+
+.calculator {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 2rem;
+    border: 1px solid $clr-light;
+    border-radius: 15px;
+}
+
+.btn-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.btn-equal {
+    background-color: $clr-contrast;
+    border: 1px solid $clr-contrast;
+    color: $clr-light;
+}
+
+.output {
+    display: flex;
+    text-align: flex-end;
+    width: 100%;
+    background-color: $clr-tint;
+    border-radius: 15px;
+    padding: 1rem;
+    color: $clr-dark;
+    font-size: 20px;
+}
